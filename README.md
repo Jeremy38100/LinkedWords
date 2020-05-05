@@ -1,9 +1,9 @@
-# Linked Words
+# Linked Words 🔗📚
 
 ## Structure
-- data/
- - `cache.txt` : already visited words and associations
- - `data.txt` : visited only clean words
+- `data/`
+  - `cache.txt` : already visited words and associations
+  - `data.txt` : visited only clean words
 
 ## Run
  - Define a number of words to explore in `script.ts`
