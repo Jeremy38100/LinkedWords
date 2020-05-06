@@ -3,7 +3,7 @@ import { createLink, getAtIndex, getFirstIndex, loadFromFile, saveInFile } from 
 import { getLinkedWords } from './scrapper';
 const prettyBytes = require('pretty-bytes');
 
-const maxWords = 1000;
+const maxWords = 5000;
 const cacheWords = './data/cache.txt';
 
 (async () => {

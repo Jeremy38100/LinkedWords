@@ -49,6 +49,7 @@ export function getFirstIndex() {
     if (!network.get(id).isVisited) return index;
     index++;
   }
+  return index
 }
 
 export function createLink(word1: Word, word2: Word) {
